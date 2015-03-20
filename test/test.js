@@ -1,4 +1,6 @@
 // Mocha tests
+// code coverage
+//mocha -r blanket -R html-cov > coverage.html
 var assert = require("assert")
 describe('Array', function(){
   describe('#indexOf()', function(){
